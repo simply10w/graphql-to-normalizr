@@ -1,37 +1,35 @@
 {
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "author": "azu",
+  "author": "simply10w",
   "license": "MIT",
   "files": [
     "bin/",
     "lib/",
     "src/"
   ],
-  "name": "parcel-typescript-example",
+  "name": "graphql-to-normalizr",
   "version": "1.0.0",
-  "description": "TypeScript app with parcel bundler.",
-  "main": "lib/parcel-typescript-example.js",
+  "description": "Graphql schema to normalizr schema.",
+  "main": "lib/graphql-to-normalizr.js",
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url .",
-    "watch": "parcel watch src/index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "watch": "parcel watch src/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/parcel-typescript-example.git"
+    "url": "https://github.com/simply10w/graphql-to-normalizr.git"
   },
   "bugs": {
-    "url": "https://github.com/azu/parcel-typescript-example/issues"
+    "url": "https://github.com/simply10w/graphql-to-normalizr/issues"
   },
-  "homepage": "https://azu.github.io/parcel-typescript-example/",
+  "dependencies": {
+    "@types/graphql": "14.0.4",
+    "@types/lodash": "4.14.119",
+    "graphql": "14.0.2",
+    "lodash": "4.17.11",
+    "normalizr": "3.3.0"
+  },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "gh-pages": "^1.2.0",
     "parcel-bundler": "^1.9.7",
     "typescript": "^2.9.2"
   }
