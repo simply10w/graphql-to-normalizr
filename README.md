@@ -90,7 +90,7 @@ Launch development server.
 ## Author
 
 - [github/simply10w](https://github.com/simply10w)
-- [twitter/simply10w](https://twitter.com/simply10w)
+- [twitter/nbdsimply](https://twitter.com/nbdsimply)
 
 ## License
 
